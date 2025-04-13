@@ -8,7 +8,7 @@ filters:
 #| standalone: true
 #| viewerHeight: 600
 
-library(shiny)
+library("shiny")
 
 # Define your Shiny UI here
 ui <- fluidPage(

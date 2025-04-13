@@ -5,6 +5,7 @@ Imports:
   quarto,
   rmarkdown,
   blogdown,
+  shinylive,
   remotes,
   petersenlab
 Remotes:
