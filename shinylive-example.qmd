@@ -13,6 +13,7 @@ library(shiny)
 # Define your Shiny UI here
 ui <- fluidPage(
   # Your UI components go here
+  "Hello, world!"
 )
 
 # Define your Shiny server logic here
