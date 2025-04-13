@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: shinylive-example.qmd
+        text: Shinylive Example
       - text: Links
         menu:
         - text: Lab Wiki
