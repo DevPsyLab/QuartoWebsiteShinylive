@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "shinylive-example.html",
+    "href": "shinylive-example.html",
+    "title": "Skeletal example of r-shinylive Quarto document",
     "section": "",
-    "text": "About this site"
+    "text": "#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\n\nlibrary(\"shiny\")\n\n# Define your Shiny UI here\nui &lt;- fluidPage(\n  # Your UI components go here\n  \"Hello, world!\"\n)\n\n# Define your Shiny server logic here\nserver &lt;- function(input, output, session) {\n  # Your server code goes here\n}\n\n# Create and launch the Shiny app\nshinyApp(ui, server)"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
