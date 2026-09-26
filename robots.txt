@@ -1,1 +1,1 @@
-Sitemap: https://DevPsyLab.github.io/QuartoWebsiteShinylive/sitemap.xml
+Sitemap: https://devpsylab.github.io/QuartoWebsiteShinylive/sitemap.xml
